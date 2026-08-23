@@ -1,17 +1,67 @@
 .
+├── Band Logo
+│   └── Band Icon.PNG
+├── README.md
+├── RefrenceImages
+│   ├── WhatsApp Image 2026-08-21 at 07.30.59.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.00.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.01.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.03.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.04.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.06.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.07 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.07 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.07.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.08.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.09 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.09.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.11 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.11.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.12 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.12.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (3).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.13.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.14 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.14 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.14.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.15 (1).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.15 (2).jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.15.jpeg
+│   ├── WhatsApp Image 2026-08-21 at 07.31.16 (1).jpeg
+│   └── WhatsApp Image 2026-08-21 at 07.31.16.jpeg
 ├── app
 │   ├── components
 │   │   ├── BandMember
+│   │   │   └── index.tsx
+│   │   ├── BandMember.tsx
 │   │   ├── Footer
+│   │   │   └── index.tsx
+│   │   ├── Footer.tsx
 │   │   ├── Hero
+│   │   │   └── index.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navigation.tsx
 │   │   ├── ReleaseCard
+│   │   │   └── index.tsx
+│   │   ├── ReleaseCard.tsx
 │   │   ├── ShowCard
-│   │   └── VideoCard
+│   │   │   └── index.tsx
+│   │   ├── ShowCard.tsx
+│   │   ├── VideoCard
+│   │   │   └── index.tsx
+│   │   └── VideoCard.tsx
 │   ├── public
 │   │   ├── band
 │   │   ├── images
 │   │   ├── releases
 │   │   └── videos
+│   ├── root.tsx
 │   ├── routes
 │   │   ├── _index.tsx
 │   │   ├── band.tsx
@@ -21,46 +71,15 @@
 │   │   ├── shows.tsx
 │   │   └── videos.tsx
 │   └── styles
-├── Band Logo
-│   └── Band Icon.PNG
+│       └── global.css
 ├── docs
 │   ├── ARCHITECTURE.md
 │   ├── CONTENT.md
 │   ├── DESIGN.md
 │   └── PROJECT.md
+├── package.json
 ├── project-structure.txt
-└── RefrenceImages
-    ├── WhatsApp Image 2026-08-21 at 07.30.59.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.00.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.01.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.03.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.04.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.06.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.07 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.07 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.07.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.08.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.09 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.09.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.11 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.11.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.12 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.12.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.13 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.13 (3).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.13.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.14 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.14 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.14.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.15 (1).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.15 (2).jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.15.jpeg
-    ├── WhatsApp Image 2026-08-21 at 07.31.16 (1).jpeg
-    └── WhatsApp Image 2026-08-21 at 07.31.16.jpeg
+├── tailwind.config.ts
+└── vite.config.js
 
-19 directories, 45 files
+19 directories, 64 files
