@@ -14,7 +14,7 @@ export const videos: Video[] = [
     id: "featured-video",
     title: "TODO: Insert Video Title Here",
     youtubeId: "", // TODO: Insert YouTube Video ID
-    thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.03.jpeg",
+    thumbnailUrl: "/RefrenceImages/video-thumbnail-featured.jpg",
     description: "TODO: Insert Video Description Here",
     category: "Music Video",
   },

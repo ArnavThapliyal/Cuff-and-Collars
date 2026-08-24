@@ -33,7 +33,7 @@ export function ReleaseCard({ release, featured = false }: ReleaseCardProps) {
           className="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300"
           onError={(e) => {
             (e.target as HTMLImageElement).src =
-              "/Band Logo/Band Icon.PNG";
+              "/Band Logo/band-icon.png";
           }}
         />
         <div className="absolute top-2 left-2 bg-black px-2 py-1 border border-white text-[10px] uppercase font-bold text-white">

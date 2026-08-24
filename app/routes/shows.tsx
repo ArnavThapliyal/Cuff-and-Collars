@@ -57,7 +57,7 @@ export default function ShowsRoute() {
               <div className="border-2 border-white bg-black p-4 space-y-3 shadow-[4px_4px_0px_#FFFFFF]">
                 <div className="aspect-video overflow-hidden bg-neutral-900 border border-neutral-800">
                   <img
-                    src="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg"
+                    src="/RefrenceImages/band-hero.jpg"
                     alt="Live Rehearsal"
                     className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                   />
@@ -73,7 +73,7 @@ export default function ShowsRoute() {
               <div className="border-2 border-white bg-black p-4 space-y-3 shadow-[4px_4px_0px_#00F5D4]">
                 <div className="aspect-video overflow-hidden bg-neutral-900 border border-neutral-800">
                   <img
-                    src="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg"
+                    src="/RefrenceImages/band-live-rehearsal.jpg"
                     alt="Live Performance"
                     className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                   />
@@ -89,7 +89,7 @@ export default function ShowsRoute() {
               <div className="border-2 border-white bg-black p-4 space-y-3 shadow-[4px_4px_0px_#FFFFFF]">
                 <div className="aspect-video overflow-hidden bg-neutral-900 border border-neutral-800">
                   <img
-                    src="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12.jpeg"
+                    src="/RefrenceImages/stage-dispatch-03.jpg"
                     alt="Tour Stills"
                     className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                   />

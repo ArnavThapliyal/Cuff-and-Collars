@@ -51,7 +51,7 @@ export function VideoCard({ video, featured = false }: VideoCardProps) {
               className="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-300"
               onError={(e) => {
                 (e.target as HTMLImageElement).src =
-                  "/Band Logo/Band Icon.PNG";
+                  "/Band Logo/band-icon.png";
               }}
             />
             {/* Play Button Overlay */}

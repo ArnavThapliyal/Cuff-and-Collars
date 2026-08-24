@@ -22,7 +22,7 @@ export const loader = async () => {
     {
       id: "live-session-01",
       title: "TODO: Live Session Transmission #01",
-      thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+      thumbnailUrl: "/RefrenceImages/band-live-rehearsal.jpg",
       category: "Live" as const,
       description: "TODO: Insert Live Session Details",
       releaseDate: "TODO",
@@ -30,7 +30,7 @@ export const loader = async () => {
     {
       id: "visualizer-02",
       title: "TODO: Official Visualizer #02",
-      thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg",
+      thumbnailUrl: "/RefrenceImages/visualizer-thumb-02.jpg",
       category: "Visualizer" as const,
       description: "TODO: Insert Visualizer Details",
       releaseDate: "TODO",

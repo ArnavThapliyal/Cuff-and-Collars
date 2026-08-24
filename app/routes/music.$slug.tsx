@@ -63,7 +63,7 @@ export default function ReleaseDetailRoute() {
                   className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      "/Band Logo/Band Icon.PNG";
+                      "/Band Logo/band-icon.png";
                   }}
                 />
               </div>

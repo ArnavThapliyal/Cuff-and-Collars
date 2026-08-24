@@ -29,7 +29,7 @@ export const releases: Release[] = [
     title: "Panchtantra Rasaayan",
     type: "EP",
     releaseDate: "TODO: Insert Release Date Here",
-    coverImage: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.00.jpeg",
+    coverImage: "/RefrenceImages/panchtantra-rasaayan-cover.jpg",
     description: "TODO: Insert Release Description Here",
     streamingLinks: {
       spotify: "https://open.spotify.com/TODO",

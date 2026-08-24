@@ -33,7 +33,7 @@ export const bandData: BandData = {
       name: "TODO: Insert Member Name Here",
       role: "TODO: Insert Member Role Here",
       bio: "TODO: Insert Member Bio Here",
-      photoUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg",
+      photoUrl: "/RefrenceImages/band-member-portrait.jpg",
     },
   ],
   socials: {

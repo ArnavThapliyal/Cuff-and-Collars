@@ -10,7 +10,7 @@ interface HeroProps {
 export function Hero({
   title = "CUFF & COLLARS",
   tagline = "ANALOG TRANSMISSIONS // NOISE & LIGHT",
-  heroImage = "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+  heroImage = "/RefrenceImages/band-hero.jpg",
   location = "TODO: Insert Band Location",
 }: HeroProps) {
   return (
@@ -85,7 +85,7 @@ export function Hero({
                   className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-500"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      "/Band Logo/Band Icon.PNG";
+                      "/Band Logo/band-icon.png";
                   }}
                 />
                 <div className="absolute bottom-2 left-2 right-2 bg-black p-2 border border-white text-[10px] font-mono uppercase text-neutral-300 flex justify-between">

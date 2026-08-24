@@ -42,7 +42,7 @@ export function Navigation() {
           className="group flex items-center gap-3 font-display text-xl sm:text-2xl font-black tracking-tighter text-white hover:text-[#00F5D4] transition-colors"
         >
           <img
-            src="/Band Logo/Band Icon.PNG"
+            src="/Band Logo/band-icon.png"
             alt="Cuff & Collars Icon"
             className="w-7 h-7 sm:w-8 sm:h-8 object-contain invert group-hover:rotate-6 transition-transform"
             onError={(e) => {

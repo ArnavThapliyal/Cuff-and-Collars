@@ -28,7 +28,7 @@ export function Footer() {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <img
-              src="/Band Logo/Band Icon.PNG"
+              src="/Band Logo/band-icon.png"
               alt="Cuff & Collars Logo"
               className="w-10 h-10 object-contain invert border border-white p-1"
               onError={(e) => {

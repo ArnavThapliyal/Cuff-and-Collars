@@ -1,40 +1,4 @@
 .
-├── Band Logo
-│   └── Band Icon.PNG
-├── README.md
-├── RefrenceImages
-│   ├── WhatsApp Image 2026-08-21 at 07.30.59.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.00.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.01.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.03.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.04.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.06.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.07 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.07 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.07.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.08.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.09 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.09.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.11 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.11.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.12 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.12.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.13 (3).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.13.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.14 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.14 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.14.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.15 (1).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.15 (2).jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.15.jpeg
-│   ├── WhatsApp Image 2026-08-21 at 07.31.16 (1).jpeg
-│   └── WhatsApp Image 2026-08-21 at 07.31.16.jpeg
 ├── app
 │   ├── components
 │   │   ├── BandMember
@@ -56,11 +20,12 @@
 │   │   ├── VideoCard
 │   │   │   └── index.tsx
 │   │   └── VideoCard.tsx
-│   ├── public
-│   │   ├── band
-│   │   ├── images
-│   │   ├── releases
-│   │   └── videos
+│   ├── data
+│   │   ├── band.ts
+│   │   ├── releases.ts
+│   │   ├── shows.ts
+│   │   └── videos.ts
+│   ├── entry.client.tsx
 │   ├── root.tsx
 │   ├── routes
 │   │   ├── _index.tsx
@@ -77,9 +42,88 @@
 │   ├── CONTENT.md
 │   ├── DESIGN.md
 │   └── PROJECT.md
+├── package-lock.json
 ├── package.json
+├── postcss.config.js
 ├── project-structure.txt
+├── public
+│   ├── apple-touch-icon.png
+│   ├── Band Logo
+│   │   ├── Band Icon.PNG
+│   │   └── band-icon.png
+│   ├── favicon.ico
+│   ├── icon-192.png
+│   ├── icon-512.png
+│   ├── images
+│   ├── RefrenceImages
+│   │   ├── band-archive-01.jpg
+│   │   ├── band-archive-02.jpg
+│   │   ├── band-archive-03.jpg
+│   │   ├── band-archive-04.jpg
+│   │   ├── band-archive-05.jpg
+│   │   ├── band-archive-06.jpg
+│   │   ├── band-archive-07.jpg
+│   │   ├── band-archive-08.jpg
+│   │   ├── band-hero.jpg
+│   │   ├── band-live-01.jpg
+│   │   ├── band-live-02.jpg
+│   │   ├── band-live-rehearsal.jpg
+│   │   ├── band-member-portrait.jpg
+│   │   ├── band-polaroid-01.jpg
+│   │   ├── band-polaroid-02.jpg
+│   │   ├── band-polaroid-03.jpg
+│   │   ├── gallery-still-01.jpg
+│   │   ├── gallery-still-02.jpg
+│   │   ├── gallery-still-03.jpg
+│   │   ├── gallery-still-04.jpg
+│   │   ├── gallery-still-05.jpg
+│   │   ├── gallery-still-06.jpg
+│   │   ├── panchtantra-rasaayan-cover.jpg
+│   │   ├── stage-dispatch-03.jpg
+│   │   ├── video-thumbnail-featured.jpg
+│   │   ├── visualizer-thumb-02.jpg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.30.59.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.00.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.01.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.03.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.04.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.06.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.07 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.07 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.07.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.08.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.09 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.09.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.11 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.11.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.12 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.12.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.13 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.13 (3).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.13.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.14 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.14 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.14.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.15 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.15 (2).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.15.jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.16 (1).jpeg
+│   │   ├── WhatsApp Image 2026-08-21 at 07.31.16.jpeg
+│   │   ├── zine-spread-01.jpg
+│   │   ├── zine-spread-02.jpg
+│   │   ├── zine-spread-03.jpg
+│   │   ├── zine-spread-04.jpg
+│   │   ├── zine-spread-05.jpg
+│   │   └── zine-spread-06.jpg
+│   └── videos
+├── README.md
 ├── tailwind.config.ts
+├── versal.json
 └── vite.config.js
 
-19 directories, 64 files
+18 directories, 109 files

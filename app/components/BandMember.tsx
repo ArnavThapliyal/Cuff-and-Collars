@@ -10,12 +10,12 @@ export function BandMember({ member }: BandMemberProps) {
       {/* Photo Frame */}
       <div className="relative aspect-[3/4] w-full overflow-hidden bg-neutral-900 border-2 border-white mb-4">
         <img
-          src={member.photoUrl || "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg"}
+          src={member.photoUrl || "/RefrenceImages/band-member-portrait.jpg"}
           alt={member.name}
           className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
           onError={(e) => {
             (e.target as HTMLImageElement).src =
-              "/Band Logo/Band Icon.PNG";
+              "/Band Logo/band-icon.png";
           }}
         />
         <div className="absolute bottom-2 left-2 bg-black px-2 py-0.5 border border-white text-[10px] uppercase font-bold text-[#00F5D4]">

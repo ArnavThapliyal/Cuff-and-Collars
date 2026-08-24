@@ -147,7 +147,7 @@ function Navigation() {
             /* @__PURE__ */ jsx(
               "img",
               {
-                src: "/Band Logo/Band Icon.PNG",
+                src: "/Band Logo/band-icon.png",
                 alt: "Cuff & Collars Icon",
                 className: "w-7 h-7 sm:w-8 sm:h-8 object-contain invert group-hover:rotate-6 transition-transform",
                 onError: (e) => {
@@ -225,7 +225,7 @@ const bandData = {
       name: "TODO: Insert Member Name Here",
       role: "TODO: Insert Member Role Here",
       bio: "TODO: Insert Member Bio Here",
-      photoUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg"
+      photoUrl: "/RefrenceImages/band-member-portrait.jpg"
     }
   ],
   socials: {
@@ -255,7 +255,7 @@ function Footer() {
           /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/Band Logo/Band Icon.PNG",
+              src: "/Band Logo/band-icon.png",
               alt: "Cuff & Collars Logo",
               className: "w-10 h-10 object-contain invert border border-white p-1",
               onError: (e) => {
@@ -490,7 +490,7 @@ const releases = [
     title: "Panchtantra Rasaayan",
     type: "EP",
     releaseDate: "TODO: Insert Release Date Here",
-    coverImage: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.00.jpeg",
+    coverImage: "/RefrenceImages/panchtantra-rasaayan-cover.jpg",
     description: "TODO: Insert Release Description Here",
     streamingLinks: {
       spotify: "https://open.spotify.com/TODO",
@@ -563,7 +563,7 @@ function ReleaseDetailRoute() {
               alt: release.title,
               className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300",
               onError: (e) => {
-                e.target.src = "/Band Logo/Band Icon.PNG";
+                e.target.src = "/Band Logo/band-icon.png";
               }
             }
           ) }),
@@ -878,7 +878,7 @@ const route2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
 function Hero({
   title = "CUFF & COLLARS",
   tagline = "ANALOG TRANSMISSIONS // NOISE & LIGHT",
-  heroImage = "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+  heroImage = "/RefrenceImages/band-hero.jpg",
   location = "TODO: Insert Band Location"
 }) {
   return /* @__PURE__ */ jsxs("section", { className: "relative w-full border-b-2 border-white bg-black text-white overflow-hidden", children: [
@@ -940,7 +940,7 @@ function Hero({
                 alt: "Cuff & Collars Live",
                 className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-500",
                 onError: (e) => {
-                  e.target.src = "/Band Logo/Band Icon.PNG";
+                  e.target.src = "/Band Logo/band-icon.png";
                 }
               }
             ),
@@ -972,7 +972,7 @@ function ReleaseCard({ release, featured = false }) {
               alt: release.title,
               className: "w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300",
               onError: (e) => {
-                e.target.src = "/Band Logo/Band Icon.PNG";
+                e.target.src = "/Band Logo/band-icon.png";
               }
             }
           ),
@@ -1103,7 +1103,7 @@ function VideoCard({ video, featured = false }) {
               alt: video.title,
               className: "w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-300",
               onError: (e) => {
-                e.target.src = "/Band Logo/Band Icon.PNG";
+                e.target.src = "/Band Logo/band-icon.png";
               }
             }
           ),
@@ -1135,7 +1135,7 @@ const videos = [
     title: "TODO: Insert Video Title Here",
     youtubeId: "",
     // TODO: Insert YouTube Video ID
-    thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.03.jpeg",
+    thumbnailUrl: "/RefrenceImages/video-thumbnail-featured.jpg",
     description: "TODO: Insert Video Description Here",
     category: "Music Video"
   }
@@ -1156,27 +1156,27 @@ const loader$4 = async () => {
   const isShowsComingSoon = showsData.isComingSoon || upcomingShows.length === 0;
   const galleryStills = [
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+      src: "/RefrenceImages/band-hero.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+      src: "/RefrenceImages/band-live-rehearsal.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg",
+      src: "/RefrenceImages/zine-spread-01.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.07.jpeg",
+      src: "/RefrenceImages/zine-spread-02.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.08.jpeg",
+      src: "/RefrenceImages/gallery-still-01.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12.jpeg",
+      src: "/RefrenceImages/stage-dispatch-03.jpg",
       caption: "TODO: Insert Photo Caption"
     }
   ];
@@ -1206,7 +1206,7 @@ function IndexRoute() {
       {
         title: "CUFF & COLLARS",
         tagline: "ANALOG TRANSMISSIONS // NOISE & LIGHT",
-        heroImage: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+        heroImage: "/RefrenceImages/band-hero.jpg",
         location: bandData2.location
       }
     ),
@@ -1313,7 +1313,7 @@ function IndexRoute() {
             /* @__PURE__ */ jsx(
               "img",
               {
-                src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg",
+                src: "/RefrenceImages/band-member-portrait.jpg",
                 alt: "Band Polaroid",
                 className: "w-full aspect-square object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
               }
@@ -1324,7 +1324,7 @@ function IndexRoute() {
             /* @__PURE__ */ jsx(
               "img",
               {
-                src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+                src: "/RefrenceImages/band-live-rehearsal.jpg",
                 alt: "Live Still",
                 className: "w-full aspect-square object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
               }
@@ -1366,7 +1366,7 @@ function IndexRoute() {
                 alt: still.caption,
                 className: "w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300",
                 onError: (e) => {
-                  e.target.src = "/Band Logo/Band Icon.PNG";
+                  e.target.src = "/Band Logo/band-icon.png";
                 }
               }
             ) }),
@@ -1398,7 +1398,7 @@ const loader$3 = async () => {
     {
       id: "live-session-01",
       title: "TODO: Live Session Transmission #01",
-      thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+      thumbnailUrl: "/RefrenceImages/band-live-rehearsal.jpg",
       category: "Live",
       description: "TODO: Insert Live Session Details",
       releaseDate: "TODO"
@@ -1406,7 +1406,7 @@ const loader$3 = async () => {
     {
       id: "visualizer-02",
       title: "TODO: Official Visualizer #02",
-      thumbnailUrl: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12 (2).jpeg",
+      thumbnailUrl: "/RefrenceImages/visualizer-thumb-02.jpg",
       category: "Visualizer",
       description: "TODO: Insert Visualizer Details",
       releaseDate: "TODO"
@@ -1603,7 +1603,7 @@ function ShowsRoute() {
           /* @__PURE__ */ jsx("div", { className: "aspect-video overflow-hidden bg-neutral-900 border border-neutral-800", children: /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+              src: "/RefrenceImages/band-hero.jpg",
               alt: "Live Rehearsal",
               className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
             }
@@ -1615,7 +1615,7 @@ function ShowsRoute() {
           /* @__PURE__ */ jsx("div", { className: "aspect-video overflow-hidden bg-neutral-900 border border-neutral-800", children: /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+              src: "/RefrenceImages/band-live-rehearsal.jpg",
               alt: "Live Performance",
               className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
             }
@@ -1627,7 +1627,7 @@ function ShowsRoute() {
           /* @__PURE__ */ jsx("div", { className: "aspect-video overflow-hidden bg-neutral-900 border border-neutral-800", children: /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12.jpeg",
+              src: "/RefrenceImages/stage-dispatch-03.jpg",
               alt: "Tour Stills",
               className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
             }
@@ -1666,11 +1666,11 @@ function BandMember({ member }) {
       /* @__PURE__ */ jsx(
         "img",
         {
-          src: member.photoUrl || "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg",
+          src: member.photoUrl || "/RefrenceImages/band-member-portrait.jpg",
           alt: member.name,
           className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300",
           onError: (e) => {
-            e.target.src = "/Band Logo/Band Icon.PNG";
+            e.target.src = "/Band Logo/band-icon.png";
           }
         }
       ),
@@ -1696,25 +1696,25 @@ const loader = async () => {
     {
       id: "spread-01",
       title: "TODO: Insert Spread Title 01",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.07.jpeg",
+      image: "/RefrenceImages/zine-spread-02.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
       id: "spread-02",
       title: "TODO: Insert Spread Title 02",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg",
+      image: "/RefrenceImages/zine-spread-01.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
       id: "spread-03",
       title: "TODO: Insert Spread Title 03",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+      image: "/RefrenceImages/band-hero.jpg",
       caption: "TODO: Insert Photo Caption"
     },
     {
       id: "spread-04",
       title: "TODO: Insert Spread Title 04",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg",
+      image: "/RefrenceImages/zine-spread-04.jpg",
       caption: "TODO: Insert Photo Caption"
     }
   ];
@@ -1770,7 +1770,7 @@ function BandRoute() {
           /* @__PURE__ */ jsx("div", { className: "aspect-square bg-black border-2 border-white flex items-center justify-center p-8 group", children: /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/Band Logo/Band Icon.PNG",
+              src: "/Band Logo/band-icon.png",
               alt: "Band Icon",
               className: "w-full h-full object-contain invert group-hover:scale-105 transition-transform"
             }
@@ -1823,7 +1823,7 @@ function BandRoute() {
                 alt: spread.title,
                 className: "w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300",
                 onError: (e) => {
-                  e.target.src = "/Band Logo/Band Icon.PNG";
+                  e.target.src = "/Band Logo/band-icon.png";
                 }
               }
             ) }),
@@ -1856,7 +1856,7 @@ const route7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   loader,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-QAqrQIlr.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-D9U-srsX.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/music.$slug": { "id": "routes/music.$slug", "parentId": "routes/music", "path": ":slug", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/music._slug-DLe9NfYF.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-5DxgOAM4.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-DPbhuoyA.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ReleaseCard-BNBgRNWK.js", "/assets/ShowCard-BwqG-2fx.js", "/assets/VideoCard-BPWjOmR0.js"], "css": [] }, "routes/videos": { "id": "routes/videos", "parentId": "root", "path": "videos", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/videos-CF43SS0w.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/VideoCard-BPWjOmR0.js"], "css": [] }, "routes/music": { "id": "routes/music", "parentId": "root", "path": "music", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/music-EbPnTRSy.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ReleaseCard-BNBgRNWK.js"], "css": [] }, "routes/shows": { "id": "routes/shows", "parentId": "root", "path": "shows", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/shows-elGQhePd.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ShowCard-BwqG-2fx.js"], "css": [] }, "routes/band": { "id": "routes/band", "parentId": "root", "path": "band", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/band-URw-JwwW.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] } }, "url": "/assets/manifest-fee355b9.js", "version": "fee355b9" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-QAqrQIlr.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-p9grjod5.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/music.$slug": { "id": "routes/music.$slug", "parentId": "routes/music", "path": ":slug", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/music._slug-CQGm6eTy.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/contact-5DxgOAM4.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-8hkzJwNr.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ReleaseCard-8S3inrmc.js", "/assets/ShowCard-BwqG-2fx.js", "/assets/VideoCard-DR5uLT6R.js"], "css": [] }, "routes/videos": { "id": "routes/videos", "parentId": "root", "path": "videos", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/videos-wluhn3LU.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/VideoCard-DR5uLT6R.js"], "css": [] }, "routes/music": { "id": "routes/music", "parentId": "root", "path": "music", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/music-B53YakG-.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ReleaseCard-8S3inrmc.js"], "css": [] }, "routes/shows": { "id": "routes/shows", "parentId": "root", "path": "shows", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/shows-C4LtO_pL.js", "imports": ["/assets/components-CWj0NU6o.js", "/assets/ShowCard-BwqG-2fx.js"], "css": [] }, "routes/band": { "id": "routes/band", "parentId": "root", "path": "band", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/band-DB3ZIheq.js", "imports": ["/assets/components-CWj0NU6o.js"], "css": [] } }, "url": "/assets/manifest-84360cf4.js", "version": "84360cf4" };
 const mode = "production";
 const assetsBuildDirectory = "build/client";
 const basename = "/";

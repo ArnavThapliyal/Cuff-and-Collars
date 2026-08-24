@@ -21,25 +21,25 @@ export const loader = async () => {
     {
       id: "spread-01",
       title: "TODO: Insert Spread Title 01",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.07.jpeg",
+      image: "/RefrenceImages/zine-spread-02.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
       id: "spread-02",
       title: "TODO: Insert Spread Title 02",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg",
+      image: "/RefrenceImages/zine-spread-01.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
       id: "spread-03",
       title: "TODO: Insert Spread Title 03",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+      image: "/RefrenceImages/band-hero.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
       id: "spread-04",
       title: "TODO: Insert Spread Title 04",
-      image: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.13 (2).jpeg",
+      image: "/RefrenceImages/zine-spread-04.jpg",
       caption: "TODO: Insert Photo Caption",
     },
   ];
@@ -116,7 +116,7 @@ export default function BandRoute() {
               </div>
               <div className="aspect-square bg-black border-2 border-white flex items-center justify-center p-8 group">
                 <img
-                  src="/Band Logo/Band Icon.PNG"
+                  src="/Band Logo/band-icon.png"
                   alt="Band Icon"
                   className="w-full h-full object-contain invert group-hover:scale-105 transition-transform"
                 />
@@ -203,7 +203,7 @@ export default function BandRoute() {
                     className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src =
-                        "/Band Logo/Band Icon.PNG";
+                        "/Band Logo/band-icon.png";
                     }}
                   />
                 </div>

@@ -32,27 +32,27 @@ export const loader = async () => {
   // Curated photographic stills from band archive
   const galleryStills = [
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg",
+      src: "/RefrenceImages/band-hero.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg",
+      src: "/RefrenceImages/band-live-rehearsal.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.06 (1).jpeg",
+      src: "/RefrenceImages/zine-spread-01.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.07.jpeg",
+      src: "/RefrenceImages/zine-spread-02.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.08.jpeg",
+      src: "/RefrenceImages/gallery-still-01.jpg",
       caption: "TODO: Insert Photo Caption",
     },
     {
-      src: "/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.12.jpeg",
+      src: "/RefrenceImages/stage-dispatch-03.jpg",
       caption: "TODO: Insert Photo Caption",
     },
   ];
@@ -85,7 +85,7 @@ export default function IndexRoute() {
       <Hero
         title="CUFF & COLLARS"
         tagline="ANALOG TRANSMISSIONS // NOISE & LIGHT"
-        heroImage="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (1).jpeg"
+        heroImage="/RefrenceImages/band-hero.jpg"
         location={bandData.location}
       />
 
@@ -263,7 +263,7 @@ export default function IndexRoute() {
             <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="border-2 border-white bg-black p-2 shadow-[4px_4px_0px_#00F5D4]">
                 <img
-                  src="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04.jpeg"
+                  src="/RefrenceImages/band-member-portrait.jpg"
                   alt="Band Polaroid"
                   className="w-full aspect-square object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                 />
@@ -273,7 +273,7 @@ export default function IndexRoute() {
               </div>
               <div className="border-2 border-white bg-black p-2 shadow-[4px_4px_0px_#FFFFFF] mt-0 sm:mt-6">
                 <img
-                  src="/RefrenceImages/WhatsApp Image 2026-08-21 at 07.31.04 (2).jpeg"
+                  src="/RefrenceImages/band-live-rehearsal.jpg"
                   alt="Live Still"
                   className="w-full aspect-square object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
                 />
@@ -326,7 +326,7 @@ export default function IndexRoute() {
                     className="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src =
-                        "/Band Logo/Band Icon.PNG";
+                        "/Band Logo/band-icon.png";
                     }}
                   />
                 </div>
